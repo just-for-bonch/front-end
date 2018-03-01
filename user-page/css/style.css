@@ -6,7 +6,6 @@
   ========================================================================== 
 *
 */
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,700&subset=cyrillic");
 :root {
   --base-color: #4F176B;
   --base-yellow: #FDD003;
@@ -376,6 +375,9 @@ a:active {
   color: var(--base-color);
   cursor: pointer; }
 
+.avatar-hello div p {
+  color: #fff; }
+
 .level {
   color: #666666; }
 
@@ -529,22 +531,19 @@ header {
 .value {
   color: var(--base-red); }
 
-.logo {
-  max-width: 28%; }
-
 .main-menu {
   width: 100%;
   display: block; }
 
 .main-menu {
-  text-transform: uppercase;
   font-size: 1rem;
   background-color: var(--base-color);
   width: 100%; }
 
 .navbar {
   margin-left: -15px;
-  /* сброс падинг от ссылок */ }
+  /* сброс падинг от ссылок */
+  justify-content: center; }
 
 nav ul {
   list-style: none;
@@ -560,8 +559,7 @@ nav ul {
 
 .nav-item a {
   display: block;
-  color: #ffffffbf;
-  padding: 15px; }
+  color: #ffffffbf; }
 
 .nav-item a:hover,
 .nav-item a:active {
@@ -576,5 +574,22 @@ nav ul {
     flex-flow: column wrap;
     justify-content: center;
     justify-content: space-around; } }
+.social {
+  display: flex;
+  justify-content: space-around; }
+  .social div {
+    max-width: 100%;
+    margin-right: 20px; }
+
+.avatar-hello {
+  display: flex;
+  max-width: 100%;
+  align-items: center; }
+  .avatar-hello .avatar-image {
+    max-width: 40%;
+    margin-right: 10px; }
+    .avatar-hello .avatar-image img {
+      max-width: 100%;
+      height: auto; }
 
 /*# sourceMappingURL=style.css.map */

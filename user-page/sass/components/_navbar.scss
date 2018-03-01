@@ -1,18 +1,15 @@
-.logo {
-  max-width: 28%;
-}
 .main-menu {
   width: 100%;
   display: block;
 }
 .main-menu {
-  text-transform: uppercase;
   font-size: 1rem;
   background-color: var(--base-color);
   width: 100%;
 }
 .navbar {
   margin-left: -15px; /* сброс падинг от ссылок */
+  justify-content: center;
 }
 nav ul {
   list-style: none; /* убираем маркеры */
@@ -26,7 +23,6 @@ nav ul {
 .nav-item a {
   display: block;
   color: #ffffffbf;
-  padding: 15px;
 }
 .nav-item a:hover,
 .nav-item a:active {
@@ -41,5 +37,28 @@ nav ul {
     flex-flow: column wrap;
     justify-content: center;
     justify-content: space-around;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  div {
+    max-width: 100%;
+    margin-right: 20px;
+  }
+}
+
+.avatar-hello {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  .avatar-image {
+    max-width: 40%;
+    margin-right: 10px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   }
 }

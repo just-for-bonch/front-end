@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700&subset=cyrillic');
+//@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700&subset=cyrillic');
 body {
   font-family: Rubik, sans-serif;
   background: var(--grey-color);
@@ -39,6 +39,9 @@ a:active {
   text-decoration: underline;
   color: var(--base-color);
   cursor: pointer;
+}
+.avatar-hello div p {
+  color: #fff;
 }
 .level {
   color: #666666;
