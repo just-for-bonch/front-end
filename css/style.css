@@ -484,6 +484,19 @@ header {
   display: block;
   margin-bottom: 40px; }
 
+.user-rating {
+  margin-top: 30px;
+  display: flex;
+  align-items: center; }
+  .user-rating .user-image {
+    max-width: 10%;
+    margin-right: 20px; }
+
+.number {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px; }
+
 .users {
   margin-top: 25px; }
 
