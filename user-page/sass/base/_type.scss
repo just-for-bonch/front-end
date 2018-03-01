@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700&subset=cyrillic');
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Rubik, sans-serif;
   background: var(--grey-color);
 } 
 html {
@@ -9,7 +10,7 @@ p {
   margin: 0 0 1rem 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #212529;
+  color: #222;
 }
 
 h1 { font-size: $font-size-40; }
@@ -38,4 +39,16 @@ a:active {
   text-decoration: underline;
   color: var(--base-color);
   cursor: pointer;
+}
+.level {
+  color: #666666;
+}
+.name,
+.level {
+  font-size: $font-size-20;
+  font-weight: bold;
+}
+.next-level,
+.company {
+  font-size: $font-size-14;
 }

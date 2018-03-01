@@ -9,17 +9,17 @@
   overflow-y: scroll;
   ul {
     padding: 0;
-        
+
     .list-header {
       color: var(--base-color);
     }
   }
 }
-.panel ul:after {
+/*.panel ul:after {
   content: '';
   display: block;
   padding-top: 10px;
   margin: 0 auto;
   width: 100px;
   border-bottom: 1px solid #ccc;
-}
+}*/

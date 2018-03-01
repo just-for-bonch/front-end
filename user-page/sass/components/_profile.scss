@@ -2,3 +2,24 @@
   align-items: center;
   margin-bottom: 30px;
 }
+.name,
+.company {
+  margin-bottom: .25rem;
+}
+.level,
+.scale {
+  margin-bottom: 1.25rem;
+}
+.scale {
+  height: 25px;
+  width: 100%;
+  background: var(--base-yellow);
+  border: 3px solid var(--base-color);
+  border-radius: 15px;
+}
+.next-level {
+  margin-bottom: 0;
+}
+.value {
+  color: var(--base-red);
+}

@@ -1,7 +1,18 @@
 @charset "UTF-8";
+/* 
+*
+  ========================================================================== 
+  Styles
+  ========================================================================== 
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,700&subset=cyrillic");
 :root {
-  --base-color: #1abc9c;
-  --grey-color: #888; }
+  --base-color: #4F176B;
+  --base-yellow: #FDD003;
+  --base-green: #A4FD01;
+  --base-red: #9A0000;
+  --grey-color: #f0f4f5; }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -314,22 +325,8 @@ html {
 div {
   display: block; }
 
-/* 
-*
-  ========================================================================== 
-  Styles
-  ========================================================================== 
-*
-*/
-:root {
-  --base-color: #4F176B;
-  --base-yellow: #FDD003;
-  --base-green: #A4FD01;
-  --base-red: #9A0000;
-  --grey-color: #f0f4f5; }
-
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Rubik, sans-serif;
   background: var(--grey-color); }
 
 html {
@@ -339,7 +336,7 @@ p {
   margin: 0 0 1rem 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #212529; }
+  color: #222; }
 
 h1 {
   font-size: 2.5rem; }
@@ -378,6 +375,18 @@ a:active {
   text-decoration: underline;
   color: var(--base-color);
   cursor: pointer; }
+
+.level {
+  color: #666666; }
+
+.name,
+.level {
+  font-size: 1.25rem;
+  font-weight: bold; }
+
+.next-level,
+.company {
+  font-size: 0.875rem; }
 
 .wrapper {
   justify-content: center; }
@@ -427,14 +436,14 @@ header {
     .panel ul .list-header {
       color: var(--base-color); }
 
-.panel ul:after {
+/*.panel ul:after {
   content: '';
   display: block;
   padding-top: 10px;
   margin: 0 auto;
   width: 100px;
-  border-bottom: 1px solid #ccc; }
-
+  border-bottom: 1px solid #ccc;
+}*/
 .achiev-slider {
   margin-bottom: 30px; }
 
@@ -498,6 +507,27 @@ header {
 .info {
   align-items: center;
   margin-bottom: 30px; }
+
+.name,
+.company {
+  margin-bottom: .25rem; }
+
+.level,
+.scale {
+  margin-bottom: 1.25rem; }
+
+.scale {
+  height: 25px;
+  width: 100%;
+  background: var(--base-yellow);
+  border: 3px solid var(--base-color);
+  border-radius: 15px; }
+
+.next-level {
+  margin-bottom: 0; }
+
+.value {
+  color: var(--base-red); }
 
 .main-menu {
   width: 100%;
