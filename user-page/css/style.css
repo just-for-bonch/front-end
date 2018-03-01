@@ -402,6 +402,30 @@ header {
   display: block;
   margin-bottom: 40px; }
 
+.done {
+  margin-bottom: 30px; }
+
+.done .col {
+  background: #eee; }
+
+.panel {
+  height: 160px;
+  overflow-y: scroll; }
+
+.panel ul {
+  padding: 0; }
+
+.panel ul:after {
+  content: '';
+  display: block;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 100px;
+  border-bottom: 1px solid #ccc; }
+
+.achiev-slider {
+  margin-bottom: 30px; }
+
 /* Columns
    ========================================================================== */
 /*
