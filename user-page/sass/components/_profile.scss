@@ -1,6 +1,17 @@
 .info {
   align-items: center;
   margin-bottom: 30px;
+  .avatar {
+    div {
+      padding: 3px;
+      border-radius: 100%;
+      border: 2px solid var(--base-color);
+      img {
+        border-radius: 100%;
+        border: 4px solid var(--base-color);
+      }
+    }
+  }
 }
 .name,
 .company {
