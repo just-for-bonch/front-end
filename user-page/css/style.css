@@ -419,7 +419,30 @@ footer {
 
 .sidebar {
   position: absolute;
-  left: 0; }
+  left: -52px; }
+
+.block-links {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.block-links li {
+  display: block;
+  width: 70px;
+  height: 100px;
+  border-radius: 27px; }
+
+.block-links li:nth-child(1) {
+  background: var(--base-yellow); }
+
+.block-links li:nth-child(2) {
+  background: var(--base-green); }
+
+.block-links li:nth-child(3) {
+  background: var(--base-color); }
+
+.block-links li:nth-child(4) {
+  background: var(--base-red); }
 
 header {
   width: 100%;
@@ -591,7 +614,8 @@ nav ul {
       height: auto; }
 
 .navbar div ul li a {
-  color: #ffffffbf; }
+  color: #ffffffbf;
+  display: block; }
 
 .navbar div ul li a:hover,
 .navbar div ul li a:focus,
