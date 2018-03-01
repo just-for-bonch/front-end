@@ -375,6 +375,9 @@ a:active {
   color: var(--base-color);
   cursor: pointer; }
 
+.wrapper {
+  justify-content: center; }
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -396,6 +399,10 @@ footer {
   background: #ccc;
   text-align: center;
   padding: 30px; }
+
+.sidebar {
+  position: absolute;
+  left: 0; }
 
 header {
   width: 100%;
@@ -455,6 +462,9 @@ header {
 
 .col-4 {
   max-width: 33.33333%; }
+
+.col-10 {
+  max-width: 83.33333%; }
 
 .mast-brand {
   width: 100%;

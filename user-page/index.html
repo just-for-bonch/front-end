@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <header>
+  <header><!-- start header -->
     <div class="main-menu"> <!-- главное меню -->
       <div class="container">
         <nav class="navbar">
@@ -29,7 +29,7 @@
               </div>
             </li>
             <li class="profile col col-2">
-              <div class="avatar-hello" style="justify-content: s">
+              <div class="avatar-hello">
                 <div><img style="max-width: 60%; height: auto;" src="favicon.png"></div>
                 <div><p style="margin: 0;">Hi, Tom!</p></div>
               </div>
@@ -38,74 +38,87 @@
         </nav>
       </div>
     </div>
-  </header>
+  </header><!-- end header -->
 
-  <div class="container">
-    <div class="row info">
-      <div class="col col-2 avatar"><img style="max-width: 100%; height: auto;" src="favicon.png"></div>
-      <div class="col meta-profile">
-        <div class="name">
-          <p>Имя Фамилия</p>
-        </div>
-        <div class="level">
-          <p>Ученик</p>
-        </div>
-        <div class="scale">
-          <div class="progress"></div>
-        </div>
-        <div class="next-level">
-          <p>До следующего уровня осталось 56XP</p>
-        </div>
-      </div>
-    </div>
-    <div class="achiev-slider">
-      Slider
-    </div>
-    <div class="row done">
-      <div class="col">
-        <h3>Выполненные задания</h3>
-        <div class="panel">
-          <ul>
-            <li>Название</li>
-            <li>Заказчик</li>
-            <li>Дата</li>
-          </ul>
-          <ul>
-            <li>Название</li>
-            <li>Заказчик</li>
-            <li>Дата</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col">
-        <h3>Посещенные мероприятия</h3>
-        <div class="panel">
-          <ul>
-            <li>Название</li>
-            <li>Дата</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</li>
-          </ul>
-          <ul>
-            <li>Название</li>
-            <li>Дата</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="sidebar"><!-- start sidebar -->
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div><!-- end sidebar -->
 
-  <footer>
+  <div class="container"><!-- start main content -->
+    <div class="row wrapper">     
+      <div class="col col-10">
+        <div class="row info">
+          <div class="col col-2 avatar"><img style="max-width: 100%; height: auto;" src="favicon.png"></div>
+          <div class="col meta-profile">
+            <div class="name">
+              <p>Имя Фамилия</p>
+            </div>
+            <div class="level">
+              <p>Ученик</p>
+            </div>
+            <div class="scale">
+              <div class="progress"></div>
+            </div>
+            <div class="next-level">
+              <p>До следующего уровня осталось 56XP</p>
+            </div>
+          </div>
+        </div><!-- end info -->
+        <div class="achiev-slider">
+          Slider
+        </div><!-- end slider -->
+        <div class="row done">
+          <div class="col">
+            <h3>Выполненные задания</h3>
+            <div class="panel">
+              <ul>
+                <li>Название</li>
+                <li>Заказчик</li>
+                <li>Дата</li>
+              </ul>
+              <ul>
+                <li>Название</li>
+                <li>Заказчик</li>
+                <li>Дата</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Посещенные мероприятия</h3>
+            <div class="panel">
+              <ul>
+                <li>Название</li>
+                <li>Дата</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</li>
+              </ul>
+              <ul>
+                <li>Название</li>
+                <li>Дата</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- end done panels -->
+      </div><!-- end col-10 -->
+    </div><!-- end row -->
+  </div><!-- end main content -->
+
+  <footer><!-- start footer -->
     <div class="container"> 
       Футер
     </div>
-  </footer>
+  </footer><!-- end footer -->
     
   </div>
 <script data-rocketsrc="https://cdn.jsdelivr.net/npm/vue"></script>
