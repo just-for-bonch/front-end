@@ -392,6 +392,11 @@ a:active {
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px; } }
+footer {
+  background: #ccc;
+  text-align: center;
+  padding: 30px; }
+
 header {
   width: 100%;
   display: block;
