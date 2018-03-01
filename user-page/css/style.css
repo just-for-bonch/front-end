@@ -563,15 +563,6 @@ nav ul {
   justify-content: flex-start;
   align-items: center; }
 
-.nav-item a {
-  display: block;
-  color: #ffffffbf; }
-
-.nav-item a:hover,
-.nav-item a:active {
-  text-decoration: none;
-  color: #fff; }
-
 @media (max-width: 768px) {
   .main-menu .container {
     padding: 0; }
@@ -590,12 +581,21 @@ nav ul {
 .avatar-hello {
   display: flex;
   max-width: 100%;
-  align-items: center; }
+  align-items: center;
+  justify-content: flex-end; }
   .avatar-hello .avatar-image {
     max-width: 40%;
     margin-right: 10px; }
     .avatar-hello .avatar-image img {
       max-width: 100%;
       height: auto; }
+
+.navbar div ul li a {
+  color: #ffffffbf; }
+
+.navbar div ul li a:hover,
+.navbar div ul li a:focus,
+.navbar div ul li a:active {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
