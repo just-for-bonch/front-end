@@ -316,7 +316,9 @@ template {
   box-sizing: border-box; }
 
 img {
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto; }
 
 html {
   font-size: 16px; }
@@ -544,6 +546,10 @@ header {
   margin-left: -15px;
   /* сброс падинг от ссылок */
   justify-content: center; }
+
+.navbar > .col {
+  padding-bottom: 0;
+  padding-top: 0; }
 
 nav ul {
   list-style: none;
