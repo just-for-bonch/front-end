@@ -394,7 +394,8 @@ a:active {
     max-width: 1170px; } }
 header {
   width: 100%;
-  display: block; }
+  display: block;
+  margin-bottom: 40px; }
 
 /* Columns
    ========================================================================== */
@@ -408,8 +409,6 @@ header {
   margin-left: -15px; }
 
 .col {
-  border: 1px solid rgba(86, 61, 124, 0.2);
-  /* delete */
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
@@ -452,6 +451,10 @@ header {
   .mast-brand .container {
     justify-content: center;
     flex-direction: column; } }
+.info {
+  align-items: center;
+  margin-bottom: 30px; }
+
 .main-menu {
   width: 100%;
   display: block; }
