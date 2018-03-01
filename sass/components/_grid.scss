@@ -32,6 +32,10 @@
 .col-5 {
   max-width: ((100%/12)*5);
 }
+.col-6 {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
 .col-10 {
   max-width: ((100%/6)*5);
 }
