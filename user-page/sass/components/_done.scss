@@ -1,9 +1,6 @@
 .done {
   margin-bottom: 30px;
 }
-.done .col {
-  background: #eee;
-}
 .panel {
   height: 160px;
   overflow-y: scroll;
@@ -12,14 +9,8 @@
 
     .list-header {
       color: var(--base-color);
+      font-weight: bold;
+      margin-bottom: .5rem;
     }
   }
 }
-/*.panel ul:after {
-  content: '';
-  display: block;
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 100px;
-  border-bottom: 1px solid #ccc;
-}*/

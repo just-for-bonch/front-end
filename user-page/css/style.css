@@ -415,7 +415,8 @@ a:active {
 footer {
   background: var(--base-color);
   text-align: center;
-  padding: 30px; }
+  padding: 30px;
+  color: #fff; }
 
 .sidebar {
   position: absolute;
@@ -472,29 +473,21 @@ header {
 .done {
   margin-bottom: 30px; }
 
-.done .col {
-  background: #eee; }
-
 .panel {
   height: 160px;
   overflow-y: scroll; }
   .panel ul {
     padding: 0; }
     .panel ul .list-header {
-      color: var(--base-color); }
+      color: var(--base-color);
+      font-weight: bold;
+      margin-bottom: .5rem; }
 
-/*.panel ul:after {
-  content: '';
-  display: block;
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 100px;
-  border-bottom: 1px solid #ccc;
-}*/
 .achiev-slider {
   position: relative; }
 
 .achiev-images {
+  border-radius: 30px;
   display: flex;
   margin-bottom: 30px;
   background: #E0E1E3;
@@ -594,9 +587,14 @@ header {
 .scale {
   height: 25px;
   width: 100%;
-  background: var(--base-yellow);
   border: 3px solid var(--base-color);
   border-radius: 15px; }
+
+.progress {
+  height: 100%;
+  width: 30%;
+  border-radius: 15px;
+  background: var(--base-yellow); }
 
 .next-level {
   margin-bottom: 0; }
@@ -617,6 +615,9 @@ header {
   margin-left: -15px;
   /* сброс падинг от ссылок */
   justify-content: center; }
+
+.nav-item {
+  font-weight: bold; }
 
 .navbar > .col {
   padding-bottom: 0;

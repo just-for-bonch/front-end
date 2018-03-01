@@ -24,9 +24,14 @@
 .scale {
   height: 25px;
   width: 100%;
-  background: var(--base-yellow);
   border: 3px solid var(--base-color);
   border-radius: 15px;
+}
+.progress {
+  height: 100%;
+  width: 30%;
+  border-radius: 15px;
+  background: var(--base-yellow);
 }
 .next-level {
   margin-bottom: 0;
