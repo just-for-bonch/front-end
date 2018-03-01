@@ -1,14 +1,16 @@
 .user-rating {
   margin-top: 30px;
-  display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
   .user-image {
-    max-width: 10%;
+    max-width: 22%;
     margin-right: 20px;
   }
+  div .scale {
+    margin-bottom: 0;
+  }
 }
-.number {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 20px;
+.user-meta-image {
+  display: flex;
 }
