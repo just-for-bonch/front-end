@@ -1,0 +1,16 @@
+.done {
+  margin-bottom: 30px;
+}
+.panel {
+  height: 160px;
+  overflow-y: scroll;
+  ul {
+    padding: 0;
+
+    .list-header {
+      color: var(--base-color);
+      font-weight: bold;
+      margin-bottom: .5rem;
+    }
+  }
+}

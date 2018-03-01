@@ -1,0 +1,16 @@
+.btn-group {
+  justify-content: space-around;
+  button {
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-bottom: 40px;
+  }
+}
+.btn-green {
+  background-color: var(--base-green);
+}
+.btn-yellow {
+  background-color: var(--base-yellow);
+}
