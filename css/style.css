@@ -598,7 +598,6 @@ header {
     justify-content: center;
     flex-direction: column; } }
 .info {
-  align-items: center;
   margin-bottom: 30px; }
   .info .avatar div {
     padding: 3px;
@@ -616,8 +615,9 @@ header {
   margin-bottom: .25rem; }
 
 .level,
-.scale {
-  margin-bottom: 1.25rem; }
+.scale,
+.description {
+  margin-bottom: 1rem; }
 
 .scale {
   height: 25px;
